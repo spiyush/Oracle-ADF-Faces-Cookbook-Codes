@@ -1,0 +1,3 @@
+System.out.println("The One Choice value is: "+this.getOneChoice());
+System.out.println("The One Listbox value is: "+this.getOneListbox());
+System.out.println("The One Radio value is: "+this.getOneRadio());

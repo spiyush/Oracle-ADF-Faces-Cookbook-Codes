@@ -1,0 +1,2 @@
+String firstNameField = uIComponent.getAttributes().get("firstNameField").toString();
+return "new EmailValidator('"+firstNameField+"')";

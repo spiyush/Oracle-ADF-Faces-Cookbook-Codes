@@ -1,0 +1,6 @@
+function changeClientEmail(valueChangeEvent){
+ var component = valueChangeEvent.getSource(); 
+ console.log("Email Changed from: " + valueChangeEvent.getOldValue() + " to: " + valueChangeEvent.getNewValue());
+ AdfCustomEvent.queue(component, "changeServerEmail", { newValue: valueChangeEvent.getNewValue(), oldValue: valueChangeEvent.getOldValue() }, true); 
+ valueChangeEvent.cancel(); 
+}

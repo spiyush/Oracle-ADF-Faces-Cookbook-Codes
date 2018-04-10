@@ -1,0 +1,10 @@
+if (string == null) { //Sanity check
+  return null;
+}
+try { //ClobDomain is the official implementation of Oracle Clob data type
+  return new ClobDomain(string);
+} catch (Exception ex) {
+  String message =
+                String.format("Unable to convert String value \"%s\" into a oracle.jbo.domain.ClobDomain", string);
+            throw new ConverterException(message, ex);
+}

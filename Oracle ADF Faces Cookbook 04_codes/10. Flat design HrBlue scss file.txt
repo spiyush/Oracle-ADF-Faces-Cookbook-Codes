@@ -1,0 +1,25 @@
+af|link{
+	color: #ffffff;
+    &.red-button{
+		background-color: #d9534f;
+		border-color: #d43f3a;
+  
+		&:hover,&:focus,&:active{
+			color: #ffffff;
+			background-color: #d2322d;
+			border-color: #ac2925;
+		
+		}
+    }
+    &.blue-button{
+		background-color: #5bc0de;
+		border-color: #46b8da;
+  
+		&:hover,&:focus,&:active{
+			color: #ffffff;
+			background-color: #39b3d7;
+			border-color: #269abc;
+		
+		}
+    }
+}

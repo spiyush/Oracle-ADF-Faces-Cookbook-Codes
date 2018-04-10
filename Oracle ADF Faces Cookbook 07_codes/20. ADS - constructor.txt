@@ -1,0 +1,8 @@
+ActiveModelContext context = ActiveModelContext.getActiveModelContext();
+context.addActiveModelInfo(this, new String[0], "randomValue");
+ScheduledExecutorService ses = Executors.newSingleThreadScheduledExecutor();
+ses.scheduleAtFixedRate(new Runnable() {
+ public void run() {
+  updateRandomValue();
+ }
+}, 5 /*Initial Delay*/, 5 /*Delay between updates*/, TimeUnit.SECONDS);

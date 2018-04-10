@@ -1,0 +1,2 @@
+System.out.println("All Values Submitted");
+((RichButton) actionEvent.getSource()).setText("Submitted");

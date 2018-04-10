@@ -1,0 +1,2 @@
+System.out.println("The Boolean Checkbox value is: "+this.getBooleanCheckbox());
+System.out.println("The Boolean Radio value is: "+this.getBooleanRadio());

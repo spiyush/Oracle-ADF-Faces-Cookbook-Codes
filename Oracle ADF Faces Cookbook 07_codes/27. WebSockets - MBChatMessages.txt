@@ -1,0 +1,6 @@
+public List<String> getChatMessages(){
+ if(WebsocketChatMessages.getWs().getMessages()==null){
+    return new ArrayList<String>();
+ }
+ return WebsocketChatMessages.getWs().getMessages();
+}

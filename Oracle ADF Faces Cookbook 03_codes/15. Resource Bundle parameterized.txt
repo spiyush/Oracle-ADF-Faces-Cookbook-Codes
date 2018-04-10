@@ -1,0 +1,2 @@
+EMPLOYEES.NEXT=Next {0} record(s)
+EMPLOYEES.PREVIOUS=Previous {0} record(s)

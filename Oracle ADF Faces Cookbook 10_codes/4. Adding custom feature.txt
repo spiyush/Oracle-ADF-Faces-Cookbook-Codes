@@ -1,0 +1,12 @@
+<features xmlns="http://xmlns.oracle.com/adf/faces/feature">
+ <feature>
+    <feature-name>HrButtons</feature-name>
+    <feature-class>
+      com/adffaces/hrComponents/js/component/hrBlueButton.js
+    </feature-class>
+    <feature-class>
+      com/adffaces/hrComponents/js/component/hrRedButton.js
+    </feature-class>
+  <!—- Example Dependency -->
+  <feature-dependency>AdfRichPopup</feature-dependency>
+</feature>

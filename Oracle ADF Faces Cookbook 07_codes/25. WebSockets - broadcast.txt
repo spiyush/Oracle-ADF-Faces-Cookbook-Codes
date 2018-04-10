@@ -1,0 +1,13 @@
+public void broadcastChatMessage(String message) {
+ messages.add(message);
+ for (WebSocketConnection conn : getWebSocketContext().getWebSocketConnections()) {
+  try {
+   System.out.println("Sending the message: "+message);
+   if (conn.isOpen()) {
+     conn.send(message);
+   }
+  } catch (Exception ex) {
+   ex.printStackTrace();
+  }
+ }
+}

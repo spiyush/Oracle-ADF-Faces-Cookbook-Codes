@@ -1,0 +1,6 @@
+public static WebsocketChatMessages getWs() {
+  return ws;
+}
+public List<String> getMessages() {
+  return messages;
+}

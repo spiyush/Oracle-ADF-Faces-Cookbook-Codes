@@ -1,0 +1,14 @@
+//Get the object that gets tranfered
+Transferable dropTransferable = dropEvent.getTransferable();
+//We are expecting it of flavor Object array so we can retrieve the data itself
+Object[] drinks = dropTransferable.getData(DataFlavor.OBJECT_ARRAY_FLAVOR);
+if (drinks != null) {
+ UIComponent dropComponent = dropEvent.getDropComponent();
+ // Update the specified property of the drop component with the Object[] dropped
+ dropComponent.getAttributes().put("text", Arrays.toString(drinks));
+ // Return a copy operation
+ return DnDAction.COPY;
+} else {
+ // No Drag and Drop should be occured
+ return DnDAction.NONE;
+}

@@ -1,0 +1,9 @@
+OutputStreamWriter w = null;
+     try {
+         w = new OutputStreamWriter(outputStream, "UTF-8");
+         w.write("This is the Readme File.");
+         w.write("Start Reading me!");
+         w.close();
+     } catch (Exception e) {
+         e.printStackTrace();
+     }

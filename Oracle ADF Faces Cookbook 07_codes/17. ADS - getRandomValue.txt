@@ -1,0 +1,3 @@
+public String getRandomValue(){
+  return String.valueOf(random.nextInt(301));
+}

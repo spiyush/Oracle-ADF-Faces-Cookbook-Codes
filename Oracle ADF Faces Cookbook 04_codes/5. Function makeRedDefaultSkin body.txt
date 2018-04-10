@@ -1,0 +1,2 @@
+defaultSkin="hrRed";
+refreshPage();

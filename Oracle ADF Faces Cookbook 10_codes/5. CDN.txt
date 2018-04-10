@@ -1,0 +1,14 @@
+<adf-uri-rewrite-config xmlns="http://xmlns.oracle.com/adf/rewrite/config">
+   <resource-uris>
+      <base-resource-uri uri="http://static.adffaces.local: #{request.serverPort}/" output-context-path="preserve">
+         <match-pattern>^.*/(movies|images)/.*\.(jpg|png|jpeg|gif|mov|mp4)$</match-pattern>
+      </base-resource-uri>
+      <base-resource-uri uri="http://js.adffaces.local:#{request.serverPort}/" output-context-path="preserve">
+        <match-alias>af:coreScripts</match-alias>
+        <match-alias>af:documents</match-alias>
+      </base-resource-uri>
+      <base-resource-uri uri="http://skin.adffaces.local:#{request.serverPort}/" output-context-path="preserve">
+        <match-alias>af:skins</match-alias>
+      </base-resource-uri>
+   </resource-uris>
+</adf-uri-rewrite-config>

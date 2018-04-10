@@ -1,0 +1,36 @@
+	private List<String> manyCheckbox;
+    private List<String> manyChoice;
+    private List<String> manyListbox;
+    private List<String> manyShuttle;
+    private List<String> orderShuttle;
+
+    public void setManyCheckbox(List<String> manyCheckbox) {
+        this.manyCheckbox = manyCheckbox;
+    }
+    public List<String> getManyCheckbox() {
+        return manyCheckbox;
+    }
+    public void setManyChoice(List<String> manyChoice) {
+        this.manyChoice = manyChoice;
+    }
+    public List<String> getManyChoice() {
+        return manyChoice;
+    }
+    public void setManyListbox(List<String> manyListbox) {
+        this.manyListbox = manyListbox;
+    }
+    public List<String> getManyListbox() {
+        return manyListbox;
+    }
+    public void setManyShuttle(List<String> manyShuttle) {
+        this.manyShuttle = manyShuttle;
+    }
+    public List<String> getManyShuttle() {
+        return manyShuttle;
+    }
+    public void setOrderShuttle(List<String> orderShuttle) {
+        this.orderShuttle = orderShuttle;
+    }
+    public List<String> getOrderShuttle() {
+        return orderShuttle;
+    }

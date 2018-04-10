@@ -1,0 +1,28 @@
+af|dvt-gauge{  /* for the size of the gauge */
+    width:300px;
+}
+
+af|dvt-sliceLabel { /* for the pie graph slice */
+    -tr-font-size: 13px; 
+}
+af|dvt-legendText { /* for all graph legend text */
+    -tr-font-size: 15px; 
+}
+af|dvt-o1TickLabel { /* for all graphs tick label */
+    -tr-font-size: 15px; 
+}
+af|dvt-pieLabel { /* for all pie graph label */
+    -tr-font-size: 15px; 
+}
+af|dvt-lowerLabelFrame { /* for the gauge */
+    -tr-border-color: #006e8b; 
+    -tr-background-color: #007b9d; 
+}
+af|dvt-bottomLabel { /* for the gauge */
+    -tr-color: #FFF; 
+    -tr-font-weight: bold; 
+    -tr-font-size: 13px; 
+}
+af|dvt-metricLabel { /* for all graphs */
+    -tr-color: #fff; 
+}

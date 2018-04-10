@@ -1,0 +1,22 @@
+	private Integer numberSlider;
+    private Integer numberSpinbox;
+    private NumberRange range;
+
+    public void setNumberSlider(Integer numberSlider) {
+        this.numberSlider = numberSlider;
+    }
+    public Integer getNumberSlider() {
+        return numberSlider;
+    }
+    public void setNumberSpinbox(Integer numberSpinbox) {
+        this.numberSpinbox = numberSpinbox;
+    }
+    public Integer getNumberSpinbox() {
+        return numberSpinbox;
+    }
+    public void setRange(NumberRange range) {
+        this.range = range;
+    }
+    public NumberRange getRange() {
+        return range;
+    }

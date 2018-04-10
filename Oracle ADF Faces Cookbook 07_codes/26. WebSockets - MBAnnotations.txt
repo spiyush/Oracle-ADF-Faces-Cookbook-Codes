@@ -1,0 +1,2 @@
+@ManagedBean(name="chatBean")
+@SessionScoped

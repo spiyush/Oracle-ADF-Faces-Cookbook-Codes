@@ -1,0 +1,5 @@
+System.out.println("The Many Checkbox value is: "+this.getManyCheckbox());
+System.out.println("The Many Choice value is: "+this.getManyChoice());
+System.out.println("The Many Listbox value is: "+this.getManyListbox());
+System.out.println("The Many Shuttle value is: "+this.getManyShuttle());
+System.out.println("The Order Shuttle value is: "+this.getOrderShuttle());

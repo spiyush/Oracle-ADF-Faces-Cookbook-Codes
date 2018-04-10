@@ -1,0 +1,1 @@
+<f:ajax event="change" onevent="function(event) { …}"  render="@this" />

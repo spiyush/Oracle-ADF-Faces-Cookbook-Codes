@@ -1,0 +1,3 @@
+<af:link text="" id="l2" action="#{userSkin.makeRedDefaultSkin}" styleClass="btn red-button">
+        <i class="icon-circle-blank"></i> #{viewcontrollerBundle.RED}
+    </af:link>

@@ -1,0 +1,3 @@
+String firstName = uIComponent.getAttributes().get("firstName").toString().toUpperCase();      if(!object.toString().toUpperCase().startsWith(firstName.charAt(0)+"")){
+  throw new ValidatorException(new FacesMessage(FacesMessage.SEVERITY_ERROR,"Validation Error","Email address should start with First Letter of the First Name"));
+}

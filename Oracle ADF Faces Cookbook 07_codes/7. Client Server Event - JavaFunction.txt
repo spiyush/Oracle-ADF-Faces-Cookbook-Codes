@@ -1,0 +1,3 @@
+Object oldValue = clientEvent.getParameters().get("oldValue");
+Object newValue = clientEvent.getParameters().get("newValue");
+System.out.println("Email Changed from: " + oldValue + " to: " + newValue);

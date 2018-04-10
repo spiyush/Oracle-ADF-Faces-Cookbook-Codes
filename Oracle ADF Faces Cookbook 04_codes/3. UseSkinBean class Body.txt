@@ -1,0 +1,19 @@
+String defaultSkin="hrBlue";
+
+    public void setDefaultSkin(String defaultSkin) {
+        this.defaultSkin = defaultSkin;
+    }
+
+    public String getDefaultSkin() {
+        return defaultSkin;
+    }
+
+	
+    private void refreshPage() {
+        FacesContext fctx = FacesContext.getCurrentInstance();
+        String refreshpage = fctx.getViewRoot().getViewId();
+        ViewHandler ViewH = fctx.getApplication().getViewHandler();
+        UIViewRoot UIV = ViewH.createView(fctx, refreshpage);
+        UIV.setViewId(refreshpage);
+        fctx.setViewRoot(UIV);
+    }

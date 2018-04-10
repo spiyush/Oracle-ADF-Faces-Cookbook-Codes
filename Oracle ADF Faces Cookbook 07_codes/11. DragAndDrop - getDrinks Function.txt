@@ -1,0 +1,3 @@
+public String[] getDrinks() {
+ return new String[] { "Orange Juice", "Apple Juice", "Tomato Juice" };
+}

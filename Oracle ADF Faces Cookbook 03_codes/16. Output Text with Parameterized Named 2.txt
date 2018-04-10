@@ -1,0 +1,2 @@
+<af:outputText value="#{af:formatNamed2(
+  'The disk named {disk}, contains {fileNumber} files', 'disk', bean.disk, 'fileNumber', bean.fileNumber)}" /> 

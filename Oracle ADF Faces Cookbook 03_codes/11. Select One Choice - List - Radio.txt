@@ -1,0 +1,22 @@
+	private String oneChoice;
+    private String oneListbox;
+    private String oneRadio;
+
+    public void setOneChoice(String oneChoice) {
+        this.oneChoice = oneChoice;
+    }
+    public String getOneChoice() {
+        return oneChoice;
+    }
+    public void setOneListbox(String oneListbox) {
+        this.oneListbox = oneListbox;
+    }
+    public String getOneListbox() {
+        return oneListbox;
+    }
+    public void setOneRadio(String oneRadio) {
+        this.oneRadio = oneRadio;
+    }
+    public String getOneRadio() {
+        return oneRadio;
+    }

@@ -1,0 +1,5 @@
+System.out.println("The color is: "+this.getColor());
+
+System.out.println("The date is: "+this.getDate());
+
+System.out.println("The text is: "+this.getText());

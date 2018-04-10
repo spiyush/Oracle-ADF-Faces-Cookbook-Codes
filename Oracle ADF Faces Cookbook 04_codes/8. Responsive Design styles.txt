@@ -1,0 +1,21 @@
+.hr-main-sidebar {
+  float: left;
+}
+.hr-main-content {
+  float: left;
+}
+//Hide the navigation button by default
+.hr-main-content-navigation {
+  display: none;
+}
+//Define media query if the maximum width is 700px
+@media screen and (max-width: 700px) {
+  //Hide the Sidebar
+  .hr-main-sidebar {
+    display: none;
+  }
+  //Display the navigation button
+  .hr-main-content-navigation {
+    display: block;
+  }
+}

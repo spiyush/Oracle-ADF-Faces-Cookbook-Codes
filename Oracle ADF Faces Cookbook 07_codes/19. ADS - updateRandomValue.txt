@@ -1,0 +1,7 @@
+public void updateRandomValue() {
+ counter.incrementAndGet();
+//Creating an ADS event by defining (ChangeType, changeCount, key, insert key(only valid for insert ChangeType, names and values)
+ ActiveDataUpdateEvent event = ActiveDataEventUtil.buildActiveDataUpdateEvent(ActiveDataEntry.ChangeType.UPDATE, counter.get(), new String[0], null, new String[] { "randomValue" }, new Object[] { getRandomValue() });
+//Fire this event
+ fireActiveDataUpdate(event);
+}

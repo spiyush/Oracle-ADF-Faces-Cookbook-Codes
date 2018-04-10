@@ -1,0 +1,5 @@
+function refreshTable(pollEvent){
+ var button=pollEvent.getSource().findComponent('b1'); //The button
+ var actionEvent = new AdfActionEvent(button);
+ actionEvent.queue(true);//Execute the button action immediatly
+}

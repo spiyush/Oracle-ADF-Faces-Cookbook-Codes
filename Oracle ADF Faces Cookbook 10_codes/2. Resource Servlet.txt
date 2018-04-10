@@ -1,0 +1,8 @@
+<servlet-mapping>
+    <servlet-name>resources</servlet-name>
+    <url-pattern>/js/*</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>resources</servlet-name>
+    <url-pattern>/images/*</url-pattern>
+</servlet-mapping>

@@ -1,0 +1,2 @@
+private final AtomicInteger counter = new AtomicInteger(0);
+private final Random random = new Random();

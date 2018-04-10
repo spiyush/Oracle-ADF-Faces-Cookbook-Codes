@@ -1,0 +1,1 @@
+@WebSocket(pathPatterns = { "/chat/*" }, timeout = -1)

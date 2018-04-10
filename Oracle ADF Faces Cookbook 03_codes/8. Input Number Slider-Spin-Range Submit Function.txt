@@ -1,0 +1,7 @@
+System.out.println("The number slider value is: "+this.getNumberSlider());
+        
+System.out.println("The number spinbox value is: "+this.getNumberSpinbox());
+
+if (this.getRange() != null) {
+  System.out.println("The range slider value between: " + this.getRange().getMinimum() + " and " + this.getRange().getMaximum());
+} 

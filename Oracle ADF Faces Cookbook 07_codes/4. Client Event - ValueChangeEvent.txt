@@ -1,0 +1,4 @@
+function changeLastName(valueChangeEvent){
+var label = valueChangeEvent.getSource().getProperty("label");
+alert(label + " Changed from: " + valueChangeEvent.getOldValue() + " to: " + valueChangeEvent.getNewValue());
+}

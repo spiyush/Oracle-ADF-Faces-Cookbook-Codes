@@ -1,0 +1,7 @@
+<ads:adf-activedata-config xmlns="http://xmlns.oracle.com/adf/activedata/config">
+        <transport>long-polling</transport>
+        <latency-threshold>10000</latency-threshold>
+        <keep-alive-interval>10000</keep-alive-interval>
+        <max-reconnect-attempt-time>90000</max-reconnect-attempt-time>
+        <reconnect-wait-time>8000</reconnect-wait-time>
+</ads:adf-activedata-config>

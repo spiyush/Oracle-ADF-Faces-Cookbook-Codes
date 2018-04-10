@@ -1,0 +1,9 @@
+<servlet>
+ <servlet-name>
+   MyCustomServlet
+   <init-param>
+     <param-name>jsp_timeout</param-name>
+     <param-value>10</param-value>
+   </init-param>
+ </servlet-name>
+</servlet>

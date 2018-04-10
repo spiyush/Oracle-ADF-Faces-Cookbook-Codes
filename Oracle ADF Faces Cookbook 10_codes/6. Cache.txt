@@ -1,0 +1,12 @@
+<adf-faces-config xmlns="http://xmlns.oracle.com/adf/faces/config">
+    <caching-rules xmlns="http://xmlns.oracle.com/adf/faces/rich/acf">
+      <caching-rule id="cssRule">
+        <cache>true</cache>
+        <duration>5000</duration>
+        <agent-caching>true</agent-caching>
+        <agent-duration>5000</agent-duration>
+        <compress>true</compress>
+        <cache-key-pattern>*.css</cache-key-pattern>
+      </caching-rule>
+    </caching-rules>
+  </adf-faces-config>

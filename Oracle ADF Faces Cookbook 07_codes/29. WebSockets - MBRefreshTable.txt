@@ -1,0 +1,5 @@
+public void refreshTable(ClientEvent clientEvent) {
+ String clientId=clientEvent.getParameters().get("clientId").toString();
+ UIViewRoot root = FacesContext.getCurrentInstance().getViewRoot();
+ AdfFacesContext.getCurrentInstance().addPartialTarget(root.findComponent(clientId));
+    }

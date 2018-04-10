@@ -1,0 +1,28 @@
+af|panelSpringboard {
+    background-color: #007b9d; 
+
+	&:strip af|panelSpringboard::item:selected {
+		background-color: #FFF; 
+		color: #007b9d; 
+	}
+	&::item{
+		background-color: #007b9d; 
+		color: #FFF; 
+		height: 110px;
+		width: 200px;
+		
+		&:selected,&:hover{
+		    background-color: #FFF; 
+			color: #007b9d; 
+		}
+	}
+	&::item-text{
+		color: #FFF; 
+		width: 180px;
+		
+		&:selected{
+		    background-color: #FFF; 
+			color: #007b9d; 
+		}
+	}
+}

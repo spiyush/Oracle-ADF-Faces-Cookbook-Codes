@@ -1,0 +1,3 @@
+<af:button text="Export Pivot" partialSubmit="false" id="b1">
+   <dvt:exportPivotTableData exportedId="pt2" exportedData="all" type="excelHTML" filename="pivotData.xls" title="pivotTable data"/>
+</af:button>

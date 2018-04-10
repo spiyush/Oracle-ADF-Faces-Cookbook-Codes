@@ -1,0 +1,14 @@
+var wsURL = "ws://127.0.0.1:7101/wschat/chat";
+
+var websocket = new WebSocket(wsURL);
+
+websocket.onmessage = function(evt){
+    console.log("Recieved "+evt.data);
+    handleMessage(evt.data);
+    evt.preventDefault();
+}
+
+function handleMessage(message){
+var table = AdfPage.PAGE.findComponentByAbsoluteId("pt1:t1");//pt1:t1 is page template id combined with table id
+AdfCustomEvent.queue(table, "refreshTable", {clientId:  table.getClientId()}, true); 
+}

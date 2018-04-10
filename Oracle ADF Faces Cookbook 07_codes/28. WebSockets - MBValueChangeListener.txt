@@ -1,0 +1,4 @@
+public void newChatMessage(ValueChangeEvent valueChangeEvent) {
+ String newValue=valueChangeEvent.getNewValue().toString();
+ WebsocketChatMessages.getWs().broadcastChatMessage(newValue);
+}

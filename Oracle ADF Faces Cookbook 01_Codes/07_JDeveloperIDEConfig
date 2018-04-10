@@ -1,0 +1,2 @@
+AddVMOption –Xms1024M
+AddVMOption –Xmx1024M

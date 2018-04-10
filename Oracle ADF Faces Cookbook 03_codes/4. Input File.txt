@@ -1,0 +1,9 @@
+	private UploadedFile file;
+
+    public void setFile(UploadedFile file) {
+        this.file = file;
+    }
+
+    public UploadedFile getFile() {
+        return file;
+    }

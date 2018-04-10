@@ -1,0 +1,2 @@
+AdfFacesContext adfFacesContext = AdfFacesContext.getCurrentInstance();
+adfFacesContext.addPartialTarget(_countriesSelectOneChoice);
